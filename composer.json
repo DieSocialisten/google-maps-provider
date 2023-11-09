@@ -11,9 +11,15 @@
             "email": "william.durand1@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/DieSocialisten/php-common-http.git"
+        }
+    ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "geocoder-php/common-http": "^4.0",
+        "geocoder-php/common-http": "4.5.1",
         "willdurand/geocoder": "^4.0"
     },
     "provide": {
